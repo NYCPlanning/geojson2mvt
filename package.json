@@ -19,7 +19,7 @@
   },
   "author": "",
   "dependencies": {
-    "geojson-vt": "^2.4.0",
-    "vt-pbf": "^2.1.2"
+    "geojson-vt": "^3.2.1",
+    "vt-pbf": "^3.1.1"
   }
 }
