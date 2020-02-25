@@ -91,7 +91,7 @@ var geojson2mvt = function(options) {
 
    }
    return Object.keys(pbfOptions).length ?
-      vtpbf.fromGeojsonVt(pbfOptions) :
+      vtpbf.fromGeojsonVt(pbfOptions, {version: 2}) :
       null;
 };
 
